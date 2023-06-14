@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI 求签算卦应用</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1>AI 求签算卦应用</h1>
+
+    <form id="question-form">
+        <label for="question">请输入你的问题：</label>
+        <input type="text" id="question">
+        <button type="submit">提交问题</button>
+    </form>
+
+    <div id="answer">
+        <h2>AI 的答案：</h2>
+        <p id="answer-text"></p>
+    </div>
+
+    <script src="{{ url_for('static', filename='app.js') }}"></script>
+</body>
+</html>

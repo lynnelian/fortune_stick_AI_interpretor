@@ -1,0 +1,12 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+#answer {
+    display: none;
+}

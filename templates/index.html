@@ -3,20 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AI 求签算卦应用</title>
+    <title>大仙求签</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
 </head>
 <body>
-    <h1>AI 求签算卦应用</h1>
-
+    <h1>大仙求签算卦小助手</h1>
+    <h3>说明</h3>
+    <h3><br>1、需虔诚，认真，不可以玩笑试之，亦不可随便抽签，要遵守："无事不占"的规律，所谓"心诚则灵"；</br>
+        <br>2、求签的时间：中午十二点左右和晚上十一点前或者后，晚上十一点是阴阳相接之时，最适宜抽签，抽签的信息也最准确；</br>
+        <br>3、求签前先默念“大仙大仙，请指点迷津”并禀报求问之事：中文全名、信男（信女）、岁数（虚龄）、向大仙禀报求问之事;</br>
+        <br>4、不要连续抽多个签，古书云：多占者不准确，问出来的卦也不准了；如果确实有几个问题要问，至少也要休息几个小时。</br></h3>
+    <h3><br>向大仙禀报求问之事：1、 事业 2、学业 3、健康 4、财运 5、姻缘 6、综合运势</br></h3>
     <form id="question-form">
-        <label for="question">请输入你的问题：</label>
+        <label for="question">请输入序号：</label>
         <input type="text" id="question">
-        <button type="submit">提交问题</button>
+        <button type="submit">提交</button>
     </form>
 
     <div id="answer">
-        <h2>AI 的答案：</h2>
+        <h2>解答：</h2>
         <p id="answer-text"></p>
     </div>
 

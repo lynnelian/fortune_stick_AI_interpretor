@@ -56,10 +56,12 @@ AI神签，问天问地问未来！
 通过本项目，希望能够将人工智能技术与传统求签文化相结合，为用户提供一个便捷、智能的求签问卜体验。同时，本项目也有助于传统文化在现代社会的传承与发展，提升人们对未知事物的了解与认知。我将努力开发和完善该项目，以满足用户的需求。
 
 
-# 效果预览v1.0
+# 效果预览v2.0
+
+换成用gradio搭了个交互页面
 
 <div align="center">
-  <img src="https://github.com/lynnelian/fortune_stick_AI_interpretor/blob/main/data/demo%202023-06-25.png">
+  <img src="https://github.com/lynnelian/fortune_stick_AI_interpretor/blob/main/data/demo%202023-08-02.png">
 </div>
 
 

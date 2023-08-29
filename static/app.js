@@ -3,7 +3,7 @@ document.getElementById("question-form").addEventListener("submit", (e) => {
     
     const question = document.getElementById("question").value;
     
-    fetch("/get_answer", {
+    fetch("/get_answer_from_llm", {
         method: "POST",
         headers: {
             "Content-Type": "application/json",
